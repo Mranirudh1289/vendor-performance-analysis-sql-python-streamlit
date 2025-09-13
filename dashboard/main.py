@@ -6,18 +6,18 @@ import seaborn as sns
 from scipy.stats import ttest_ind
 import scipy.stats as stats
 import math
-from Questions._1_ import plot_brand_performance
-from Questions._2_ import plot_top_vendors_brands
-from Questions._3_ import plot_vendor_contribution
-from Questions._4_ import plot_top10_vendor_donut
-from Questions._5_ import plot_bulk_purchase_impact
-from Questions._6_ import show_low_stock_turnover
-from Questions._7_ import show_unsold_inventory
-from Questions._8_ import plot_profit_margin_ci
-from Questions._9_ import ttest_profit_margin
+from plots._1_ import plot_brand_performance
+from plots._2_ import plot_top_vendors_brands
+from plots._3_ import plot_vendor_contribution
+from plots._4_ import plot_top10_vendor_donut
+from plots._5_ import plot_bulk_purchase_impact
+from plots._6_ import show_low_stock_turnover
+from plots._7_ import show_unsold_inventory
+from plots._8_ import plot_profit_margin_ci
+from plots._9_ import ttest_profit_margin
 
 # Load your analyzed data :-
-df = pd.read_csv("mydata.csv")
+df = pd.read_csv("../data/mydata.csv")
 
 st.markdown("""
 <style>
