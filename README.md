@@ -152,6 +152,9 @@ python scripts/get_vendor_summary.py
     - `notebooks/vendor_performance_analysis.ipynb`
 
 5. Open and run python script :
+```bash
+streamlit run dashboard/main.py
+```
 
 ---
 
