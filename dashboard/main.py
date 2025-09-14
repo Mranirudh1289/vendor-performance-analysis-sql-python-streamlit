@@ -17,7 +17,7 @@ from plots._8_ import plot_profit_margin_ci
 from plots._9_ import ttest_profit_margin
 
 # Load your analyzed data :-
-df = pd.read_csv("../data/mydata.csv")
+df = pd.read_csv("./data/mydata.csv")
 
 st.markdown("""
 <style>

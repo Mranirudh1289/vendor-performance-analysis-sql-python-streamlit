@@ -57,9 +57,6 @@ Effective inventory and sales management are critical in the retail sector. This
 vendor-performance-analysis/
 |
 |-- README.md
-|-- .gitignore
-|-- requirement.txt
-|-- Vendor Performance Report.pdf
 |
 |-- notebooks/                 # Jupyter notebooks 
 |   |-- exploratory_data_analysis.ipynb
@@ -120,7 +117,7 @@ vendor-performance-analysis/
 
 <h2><a class="anchor" id="dashboard"></a>Dashboard</h2>
 
-- Power BI Dashboard shows:
+- Steamlit BI Dashboard shows:
     - Vendor-wise Sales and Margins
     - Inventory Turnover
     - Bulk Purchase Savings
